@@ -1,0 +1,91 @@
+.nn_challenge {
+    width: 100%;
+}
+
+.nn_challenge .nn_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nn_challenge .nn_row>div {
+    padding: 30px 15px;
+}
+
+.nn_challenge .nn_row h3 {
+    text-align: center;
+}
+
+.nn_challenge .score-board {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nn_challenge .score-board h4 {
+    margin: 0;
+}
+
+.nn_challenge .nn_game {
+    width: 65%;
+    background: #f9f9f9;
+}
+
+.nn_challenge .gameboard {
+    min-height: 100px;
+    text-align: center;
+}
+
+.nn_challenge .gameboard>p {
+    margin: 0;
+}
+
+.nn_challenge .user-input {
+    text-align: center;
+}
+
+.nn_challenge .user-input p {
+    margin: 0;
+    padding: 0;
+}
+
+.nn_challenge .battlefield-unit,
+.nn_challenge .restart_nn_game,
+.nn_challenge .create-new-user {
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: #ffffff;
+    border-color: #046bd2;
+    background-color: #046bd2;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1em;
+}
+
+.nn_challenge .battlefield-unit:hover,
+.nn_challenge .restart_nn_game:hover,
+.nn_challenge .create-new-user:hover {
+    color: #ffffff;
+    background-color: #045cb4;
+    border-color: #045cb4;
+}
+
+.nn_challenge .nn_game_history {
+    width: 35%;
+    background-color: #fdf5ff;
+}
+
+@media (max-width:1200px) {
+    .nn_challenge .nn_game,
+    .nn_challenge .nn_game_history {
+        width: 100%;
+        text-align: center;
+    }
+}
